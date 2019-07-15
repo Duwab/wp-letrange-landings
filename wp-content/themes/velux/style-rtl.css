@@ -1420,7 +1420,7 @@ object {
 # Site Layout
 --------------------------------------------------------------*/
 .site-content {
-  max-width: 1100px;
+  max-width: 899px;
   margin-right: auto;
   margin-left: auto;
   margin-top: 2em; }
@@ -1612,7 +1612,7 @@ body.page-template-page-builder-no-header .content-area {
 .site-header-wrapper {
   position: relative;
   z-index: 1;
-  max-width: 1100px;
+  max-width: 899px;
   margin-right: auto;
   margin-left: auto;
   border-bottom: 1px solid white;
@@ -1639,7 +1639,7 @@ body.page-template-page-builder-no-header .content-area {
     -webkit-background-size: cover;
     background-size: cover; }
   .site-header .row {
-    max-width: 1100px;
+    max-width: 899px;
     margin-right: auto;
     margin-left: auto; }
     .site-header .row:after {
@@ -1721,7 +1721,7 @@ body.no-max-width .page-title-container .page-header {
 .page-title-container {
   background-color: transparent; }
   .page-title-container .page-header {
-    max-width: 1100px;
+    max-width: 899px;
     margin-right: auto;
     margin-left: auto;
     position: relative;
@@ -1746,7 +1746,7 @@ body.no-max-width .page-title-container .page-header {
 # Hero
 --------------------------------------------------------------*/
 .hero {
-  max-width: 1100px;
+  max-width: 899px;
   margin-right: auto;
   margin-left: auto;
   color: white;
@@ -1879,7 +1879,7 @@ body.no-max-width .page-title-container .page-header {
     font-size: .875rem; }
 
 .footer-widget-area {
-  max-width: 1100px;
+  max-width: 899px;
   margin-right: auto;
   margin-left: auto;
   padding: 2em 0; }
@@ -1943,7 +1943,7 @@ body.no-max-width .footer-widget-area {
 .site-info-wrapper {
   padding: 1.5em 0; }
   .site-info-wrapper .site-info {
-    max-width: 1100px;
+    max-width: 899px;
     margin-right: auto;
     margin-left: auto; }
     .site-info-wrapper .site-info:after {
