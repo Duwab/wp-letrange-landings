@@ -1,0 +1,511 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Endurance\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-15 08:35+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: 404.php:12
+msgid "Page not found"
+msgstr ""
+
+#: 404.php:14
+msgid ""
+"Apologies, but the requested page cannot be found. Perhaps searching will "
+"help find a related page."
+msgstr ""
+
+#: 404.php:21 search.php:21
+msgid "Browse Categories"
+msgstr ""
+
+#: 404.php:28 search.php:26
+msgid "Monthly Archives"
+msgstr ""
+
+#. %s: post title
+#: comments.php:33
+#, php-format
+msgctxt "comments title"
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr ""
+
+#. 1: number of comments, 2: post title
+#: comments.php:37
+#, php-format
+msgctxt "comments title"
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:53 comments.php:74
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:56 comments.php:77
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:57 comments.php:78
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:90
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:32
+msgid "Copyright &copy; "
+msgstr ""
+
+#: footer.php:32
+msgid "All Rights Reserved. "
+msgstr ""
+
+#: footer.php:33
+msgid "Theme by"
+msgstr ""
+
+#: functions.php:128
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:147
+msgid "Featured Image: Slideshow Size"
+msgstr ""
+
+#: functions.php:148
+msgid "Featured Image: Page Thumbnail"
+msgstr ""
+
+#: functions.php:149
+msgid "Featured Image: Thumbnail"
+msgstr ""
+
+#. If there are characters in your language that are not supported by Noto Sans, translate this to 'off'. Do not translate into your own language.
+#: functions.php:169
+msgctxt "Noto Sans font: on or off"
+msgid "on"
+msgstr ""
+
+#. If there are characters in your language that are not supported by Montserrat, translate this to 'off'. Do not translate into your own language.
+#: functions.php:173
+msgctxt "Montserrat font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:223
+msgctxt "The main label for the expandable mobile menu"
+msgid "Click for Menu"
+msgstr ""
+
+#: functions.php:386
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: functions.php:417
+msgid "Logo for "
+msgstr ""
+
+#: functions.php:440
+msgid "Pingback:"
+msgstr ""
+
+#: functions.php:440 functions.php:468
+msgid "Edit"
+msgstr ""
+
+#: functions.php:458
+#, php-format
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: functions.php:464
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: index.php:40
+msgid "Recent Posts"
+msgstr ""
+
+#: search.php:12
+msgid "Search Results for"
+msgstr ""
+
+#: search.php:19
+msgid "Apologies, but the search query did not return any results."
+msgstr ""
+
+#: customizer/customizer.php:177
+msgid "General"
+msgstr ""
+
+#: customizer/customizer.php:178 customizer/sections/footer.php:8
+msgid "Footer"
+msgstr ""
+
+#: customizer/customizer.php:232
+msgid "Theme Documentation"
+msgstr ""
+
+#: customizer/customizer.php:237
+msgid "Official Theme Page"
+msgstr ""
+
+#: customizer/customizer.php:242
+msgid "Support Forum"
+msgstr ""
+
+#: customizer/customizer.php:247
+msgid "Rate Endurance"
+msgstr ""
+
+#: customizer/customizer.php:257
+msgid "Theme Help & Support"
+msgstr ""
+
+#: customizer/helpers-defaults.php:7
+#, php-format
+msgid "Copyright &copy; %1$s %2$s."
+msgstr ""
+
+#: customizer/helpers.php:159 customizer/helpers.php:209
+msgid "None"
+msgstr ""
+
+#: ilovewp-admin/helper-functions.php:88
+msgid "Pages"
+msgstr ""
+
+#: ilovewp-admin/helper-functions.php:102
+msgid "Tags"
+msgstr ""
+
+#. %s theme name
+#: ilovewp-admin/ilovewp-theme-notices.php:47
+#, php-format
+msgid "Welcome to %s"
+msgstr ""
+
+#. %1$s: theme name, %2$s link
+#: ilovewp-admin/ilovewp-theme-notices.php:52
+#, php-format
+msgid ""
+"Thank you for choosing %1$s! To fully take advantage of the best our theme "
+"can offer please make sure you visit our <a href=\"%2$s\">Welcome page</a>"
+msgstr ""
+
+#. %s theme name
+#: ilovewp-admin/ilovewp-theme-notices.php:57
+#, php-format
+msgid "Get started with %s"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-notices.php:91
+msgid "Improvement Recommendation:"
+msgstr ""
+
+#. User Display Name, Number of Posts per Archive Page, Link to Settings > Reading, Link to Theme About Page
+#: ilovewp-admin/ilovewp-theme-notices.php:95
+#, php-format
+msgid ""
+"%1$s, your website is set up to display <strong>%2$s</strong> posts per page,"
+" but <a href=\"%4$s\">Endurance Theme</a> works best with multiples of 3, as "
+"it displays posts in a grid of 3 (by default). \n"
+"\t\t\t\t<br>We recommend going to <a href=\"%3$s\">Settings > Reading</a> "
+"and changing the <strong>Blog pages show at most</strong> value to a "
+"multiple of 3: 3, 6, 9, 12, 15, etc."
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-notices.php:130
+msgid "Your request failed permission check."
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-notices.php:137
+msgid "Your request was processed. See ya!"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:18
+msgid "Endurance Theme"
+msgstr ""
+
+#. Theme name and version
+#: ilovewp-admin/ilovewp-theme-settings.php:41
+#, php-format
+msgid ""
+"<span class=\"theme-name\">%1$s Theme</span> <span class=\"theme-version\">"
+"(version %2$s)</span> by"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:47
+msgid "ILoveWP.com Logo"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:53
+msgid "Endurance Documentation"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:54
+msgid "Endurance Support Forum"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:55
+msgid "Leave a Review"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:56
+msgid "Contact the Developer"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:65
+msgid "Thank you for installing Endurance"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:70
+msgid "Endurance Official Page"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:71
+msgid "Endurance Live Demo"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:80
+msgid "Endurance Documentation and Support"
+msgstr ""
+
+#. Theme name and link to WordPress.org Support forum for the theme
+#: ilovewp-admin/ilovewp-theme-settings.php:85
+#, php-format
+msgid ""
+"Support for %1$s Theme is provided in the official <a href=\"%2$s\" "
+"target=\"_blank\" rel=\"noopener\">WordPress.org community support forums</a>"
+". You can expect a response to your questions in less than 24 hours."
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:90
+msgid "View Endurance Documentation"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:91
+msgid "Go to Endurance Support Forum"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:98
+msgid "Help us help you"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:100
+msgid ""
+"There are a few ways that you could support us in our efforts to continue "
+"developing and maintaining free WordPress themes."
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:101
+msgid ""
+"ILOVEWP.com relies on donations for much of its funding. If you would like "
+"to support us donations are very welcome."
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:102
+msgid ""
+"Another way is to write a review for Endurance on the WordPress.org website. "
+"It helps and motivates us to continue updating and providing support for our "
+"Endurance Theme."
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:104
+msgid "Write a Review for Endurance"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:104
+msgid "Make a Donation"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:110
+msgid "WordPress Themes and Resources"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:112
+msgid ""
+"Endurance is just one of the many free WordPress themes that we have "
+"developed. "
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:113
+msgid "Browse our WordPress Themes"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:115
+msgid ""
+"We have a great collection of guides and articles on how to create WordPress "
+"websites for: Photographers, Hotels, Schools, Universities, Churches, "
+"Museums, Doctors, Hospitals, Lawyers and other types of organizations and "
+"businesses."
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:116
+msgid "Browse our WordPress Resources"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:122
+msgid "Considering a new web hosting provider?"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:125
+msgid ""
+"Even though most hosts can host PHP websites (the programming language in "
+"which WordPress is coded in), there are providers that can provide better "
+"performance for WordPress websites than regular hosts."
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:126
+msgid ""
+"We have a small list of handpicked hosting providers that have a great "
+"reputation in the developers community."
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:127
+msgid "Popular WordPress Hosting Providers"
+msgstr ""
+
+#: ilovewp-admin/sidebars.php:10
+msgid "Sidebar"
+msgstr ""
+
+#: ilovewp-admin/sidebars.php:19
+msgid "Homepage: Welcome Message"
+msgstr ""
+
+#: ilovewp-admin/sidebars.php:21
+msgid ""
+"We recommend adding a single [Text Widget]. The widget's title will be "
+"wrapped in a H1 tag."
+msgstr ""
+
+#: ilovewp-admin/sidebars.php:29
+msgid "Footer: Column 1"
+msgstr ""
+
+#: ilovewp-admin/sidebars.php:38
+msgid "Footer: Column 2"
+msgstr ""
+
+#: ilovewp-admin/sidebars.php:47
+msgid "Footer: Column 3"
+msgstr ""
+
+#: ilovewp-admin/sidebars.php:56
+msgid "Footer: Column 4"
+msgstr ""
+
+#. Name of the template
+msgid "Full Width Page"
+msgstr ""
+
+#. Name of the template
+msgid "Page Builder Template"
+msgstr ""
+
+#: customizer/sections/background.php:10
+msgid "Site Background"
+msgstr ""
+
+#: customizer/sections/background.php:14
+msgid "Background Color"
+msgstr ""
+
+#: customizer/sections/footer.php:17
+msgid "Copyright Text"
+msgstr ""
+
+#: customizer/sections/general.php:8
+msgid "Default"
+msgstr ""
+
+#: customizer/sections/general.php:9
+msgid "Centered"
+msgstr ""
+
+#: customizer/sections/general.php:13
+msgid "Theme Settings"
+msgstr ""
+
+#: customizer/sections/general.php:23
+msgid "Header Layout"
+msgstr ""
+
+#: customizer/sections/general.php:35
+msgid "Display Featured Pages on Homepage"
+msgstr ""
+
+#: customizer/sections/general.php:46
+msgid "Featured Page #1"
+msgstr ""
+
+#: customizer/sections/general.php:47
+#, php-format
+msgid "This list is populated with <a href=\"%1$s\">Pages</a>."
+msgstr ""
+
+#: customizer/sections/general.php:59
+msgid "Featured Page #2"
+msgstr ""
+
+#: customizer/sections/general.php:71
+msgid "Featured Page #3"
+msgstr ""
+
+#: customizer/sections/general.php:83
+msgid "Display Dynamic Menu in Sidebar of Pages"
+msgstr ""
+
+#: customizer/sections/general.php:94
+msgid "Display Featured Images on Single Pages"
+msgstr ""
+
+#: customizer/sections/general.php:105
+msgid "Display Parent Page Title"
+msgstr ""
+
+#: customizer/sections/general.php:106
+msgid ""
+"When opening a child page with a featured image, display the parent page "
+"title overlaid over the featured image."
+msgstr ""
+
+#. Name of the theme
+msgid "Endurance"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Endurance is a minimalist WordPress theme created for church websites, ngo "
+"websites, nonprofits, governmental and nongovernmental websites, including "
+"but not limited to schools, kindergartens, etc. The homepage can display 3 "
+"Featured Pages. Inner pages have an automatic menu that links to your parent "
+"and child pages."
+msgstr ""
+
+#. URI of the theme
+msgid "https://www.ilovewp.com/themes/endurance/"
+msgstr ""
+
+#. Author of the theme
+msgid "ilovewpcom"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://www.ilovewp.com/"
+msgstr ""

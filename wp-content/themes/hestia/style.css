@@ -1,11 +1,12 @@
 @charset "UTF-8";
+
 /*
 Theme Name:     Hestia
 Theme URI:      https://themeisle.com/themes/hestia/
 Author:         ThemeIsle
 Author URI:     https://themeisle.com
 Description:    Hestia is a modern WordPress theme for professionals. It fits creative business, small businesses (restaurants, wedding planners, sport/medical shops), startups, corporate businesses, online agencies and firms, portfolios, ecommerce (WooCommerce), and freelancers. It has a multipurpose one-page design, widgetized footer, blog/news page and a clean look, is compatible with: Flat Parallax Slider, Photo Gallery, Travel Map and Elementor Page Builder . The theme is responsive, WPML, Retina ready, SEO friendly, and uses Material Kit for design.
-Version:        2.4.5
+Version:        2.4.6
 License:        GNU General Public License v2 or later
 License URI:    http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain:    hestia
@@ -165,7 +166,7 @@ div.wpforms-container .wpforms-form textarea {
   transition: background 0s ease-out;
 }
 
-.form-group.is-focused .form-control, div.wpforms-container .wpforms-form .form-group.is-focused .form-control {
+.form-group.is-focused:focus .form-control, .form-group.is-focused .form-control, div.wpforms-container .wpforms-form .form-group.is-focused .form-control {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#9c27b0), to(#9c27b0)), -webkit-gradient(linear, left top, left bottom, from(#d2d2d2), to(#d2d2d2));
   background-image: -webkit-linear-gradient(#9c27b0, #9c27b0), -webkit-linear-gradient(#d2d2d2, #d2d2d2);
   background-image: linear-gradient(#9c27b0, #9c27b0), linear-gradient(#d2d2d2, #d2d2d2);
@@ -263,7 +264,7 @@ h6.category {
 }
 
 .hestia-title {
-  word-break: break-word;
+  word-break: break-all;
 }
 
 button,
@@ -1014,7 +1015,7 @@ h6.category {
 }
 
 .page-header .hestia-title {
-  line-height: 1.1;
+  line-height: 1.4;
 }
 
 .title-in-content {
@@ -1129,10 +1130,10 @@ h2.hestia-title {
 
 .tooltip {
   opacity: 0;
-  -webkit-transition: opacity,-webkit-transform 0.2s ease;
-  transition: opacity,-webkit-transform 0.2s ease;
-  transition: opacity,transform 0.2s ease;
-  transition: opacity,transform 0.2s ease,-webkit-transform 0.2s ease;
+  -webkit-transition: opacity, -webkit-transform 0.2s ease;
+  transition: opacity, -webkit-transform 0.2s ease;
+  transition: opacity, transform 0.2s ease;
+  transition: opacity, transform 0.2s ease, -webkit-transform 0.2s ease;
   -webkit-transform: translate3d(0, 5px, 0);
   -ms-transform: translate3d(0, 5px, 0);
   transform: translate3d(0, 5px, 0);
@@ -6792,6 +6793,9 @@ body:not(.home) .wrapper .content-area {
   .single.single-post .section-blog-info .card-profile .description {
     text-align: center;
   }
+  .single.single-post .section-blog-info .card-profile .card-avatar {
+    margin-bottom: 20px;
+  }
 
   .hestia-sidebar-open,
   .hestia-sidebar-close {
@@ -7437,12 +7441,19 @@ body:not(.home) .wrapper .content-area {
     padding: 30px 0;
   }
 
+  .single-post .page-header.header-small,
+  .page .page-header.header-small,
+  .blog .page-header.header-small,
+  .archive .page-header.header-small,
+  .category .page-header.header-small {
+    min-height: 0;
+  }
   .single-post .page-header.header-small .container,
   .page .page-header.header-small .container,
   .blog .page-header.header-small .container,
   .archive .page-header.header-small .container,
   .category .page-header.header-small .container {
-    padding: 170px 15px 90px;
+    padding: 120px 15px 50px;
   }
   .single-post .page-header.header-small .container .hestia-title,
   .page .page-header.header-small .container .hestia-title,

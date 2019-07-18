@@ -15,3 +15,7 @@ section (full-width)
       |- your content
 ```
 
+
+```
+UPDATE wp_options SET option_value='http://34.220.48.184:8000' WHERE option_name='siteurl' OR option_name='home'
+```

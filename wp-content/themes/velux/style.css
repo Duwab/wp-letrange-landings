@@ -109,6 +109,14 @@
 }
 .site-title-wrapper a img {
 }
+
+.menu-toggle {
+	width: 3rem !important;
+}
+
+.menu-toggle div {
+	margin: 6px 0 !important;
+}
 /* END CUSTOM */
 
 
