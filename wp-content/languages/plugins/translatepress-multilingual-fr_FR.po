@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - TranslatePress &#8211; Translate Multilingual sites - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-07-18 12:33:46+0000\n"
+"PO-Revision-Date: 2019-07-19 07:59:03+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,10 @@ msgstr ""
 "X-Generator: GlotPress/2.4.0-alpha\n"
 "Language: fr\n"
 "Project-Id-Version: Plugins - TranslatePress &#8211; Translate Multilingual sites - Stable (latest release)\n"
+
+#: languages/translatepress-multilingual.catalog.php:146
+msgid "Add as many languages as you need for your project to go global.<br>Publish your language only when all your translations are done."
+msgstr "Ajoutez autant de langues que nécessaire pour que votre projet se mondialise.<br> Publiez votre langue uniquement lorsque toutes vos traductions sont terminées."
 
 #: languages/translatepress-multilingual.catalog.php:153
 #: partials/addons-settings-page.php:71
@@ -85,6 +89,54 @@ msgstr "Publier uniquement lorsque la traduction est terminée"
 #: includes/class-translation-manager.php:124
 msgid "Are you sure you want to split this phrase into smaller parts?"
 msgstr "Confirmer-vous vouloir couper cette phrase en plusieurs morceaux ?"
+
+#: languages/translatepress-multilingual.catalog.php:155
+#: partials/addons-settings-page.php:80
+msgid "Use GET parameter to encode language in the url, replacing the language directory. </br> Your urls will look like this: www.example.com?lang=en"
+msgstr "Utilisez le paramètre GET pour encoder la langue dans l'URL, en remplaçant le répertoire de langue.</br> Vos URL ressembleront à ceci : www.example.com?lang=en"
+
+#: languages/translatepress-multilingual.catalog.php:154
+#: partials/addons-settings-page.php:72
+msgid "Extend your translation plugin with these free addons."
+msgstr "Améliorez votre extension de traduction avec ces modules gratuits."
+
+#: languages/translatepress-multilingual.catalog.php:151
+#: partials/addons-settings-page.php:57
+msgid "Navigate your website just like a particular user role would. <br/>Really useful for dynamic content or hidden content that appears for particular users."
+msgstr "Naviguez sur votre site comme le ferait un rôle d’utilisateur particulier.<br/> Vraiment utile pour le contenu dynamique ou masqué qui apparaît pour des utilisateurs particuliers."
+
+#: languages/translatepress-multilingual.catalog.php:150
+#: partials/addons-settings-page.php:49
+msgid "Create translator accounts for new users or allow existing users <br/>that are not administrators to translate your website."
+msgstr "Créez des comptes de traducteurs pour les nouveaux utilisateurs ou autorisez les utilisateurs existants<br/> qui ne sont pas administrateurs à traduire votre site."
+
+#: languages/translatepress-multilingual.catalog.php:149
+#: partials/addons-settings-page.php:41
+msgid "Automatically redirects new visitors to their preferred language based on browser settings or IP address</br> and remembers the last visited language."
+msgstr "Redirige automatiquement les nouveaux visiteurs vers leur langue préférée en fonction des réglages du navigateur ou de l’adresse IP</br> et mémorise la dernière langue visitée."
+
+#: languages/translatepress-multilingual.catalog.php:148
+#: partials/addons-settings-page.php:33
+msgid "These addons extend your translation plugin and are available in the Business and Developer plans."
+msgstr "Ces modules améliorent votre extension de traduction et sont disponibles dans les formules Business et Developer."
+
+#: partials/addons-settings-page.php:25
+msgid ""
+"Add as many languages as you need for your project to go global.<br>\n"
+"                Publish your language only when all your translations are done."
+msgstr ""
+"Ajoutez autant de langues que nécessaire pour que votre projet se mondialise.<br>\n"
+" Publiez votre langue uniquement lorsque toutes vos traductions sont terminées."
+
+#: languages/translatepress-multilingual.catalog.php:145
+#: partials/addons-settings-page.php:17
+msgid "SEO support for page slug, page title, description and facebook and twitter social graph information. </br> The HTML lang attribute is properly set."
+msgstr "Prise en charge du SEO pour le slug de page, le titre de page, la description et les informations de graphique social Facebook et Twitter. </br>L'attribut HTML lang est correctement défini."
+
+#: languages/translatepress-multilingual.catalog.php:144
+#: partials/addons-settings-page.php:9
+msgid "These addons extend your translation plugin and are available in the Developer, Business and Personal plans."
+msgstr "Ces modules améliorent votre extension de traduction et sont disponibles dans les formules Developer, Business et Personal."
 
 #: languages/translatepress-multilingual.catalog.php:37
 #: includes/class-plugin-notices.php:325
