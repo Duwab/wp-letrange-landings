@@ -6,15 +6,15 @@
         "source": {
             "type": "git",
             "url": "https://github.com/Codeinwp/gutenberg-blocks.git",
-            "reference": "f2288db9c59c988db5793e6deb76992846479bcc"
+            "reference": "a48eea1d37d39c581e9df95867f2fe74d1de0054"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/Codeinwp/gutenberg-blocks/zipball/f2288db9c59c988db5793e6deb76992846479bcc",
-            "reference": "f2288db9c59c988db5793e6deb76992846479bcc",
+            "url": "https://api.github.com/repos/Codeinwp/gutenberg-blocks/zipball/a48eea1d37d39c581e9df95867f2fe74d1de0054",
+            "reference": "a48eea1d37d39c581e9df95867f2fe74d1de0054",
             "shasum": ""
         },
-        "time": "2019-05-24 23:24:16",
+        "time": "2019-07-30 20:39:39",
         "type": "library",
         "installation-source": "source",
         "autoload": {
@@ -117,12 +117,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/Codeinwp/themeisle-sdk.git",
-            "reference": "cde61ab54f93495f0c5b7901cc5072f320f969ff"
+            "reference": "3e96da74027d8a5f1ebd40642eb6b791bcde9bfe"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/Codeinwp/themeisle-sdk/zipball/cde61ab54f93495f0c5b7901cc5072f320f969ff",
-            "reference": "cde61ab54f93495f0c5b7901cc5072f320f969ff",
+            "url": "https://api.github.com/repos/Codeinwp/themeisle-sdk/zipball/3e96da74027d8a5f1ebd40642eb6b791bcde9bfe",
+            "reference": "3e96da74027d8a5f1ebd40642eb6b791bcde9bfe",
             "shasum": ""
         },
         "require-dev": {
@@ -130,7 +130,7 @@
             "squizlabs/php_codesniffer": "^3.1",
             "wp-coding-standards/wpcs": "^1.0.0"
         },
-        "time": "2019-05-21 11:49:48",
+        "time": "2019-07-16 16:44:55",
         "type": "library",
         "installation-source": "source",
         "notification-url": "https://packagist.org/downloads/",
